@@ -304,6 +304,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ms01-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/samsung/ms01-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so
 
+# Postprocessing
+PRODUCT_COPY_FILES += \
+    vendor/samsung/ms01-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/samsung/ms01-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so
+
 # Radio
 PRODUCT_COPY_FILES += \
     vendor/samsung/ms01-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
